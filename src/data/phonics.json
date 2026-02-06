@@ -1,0 +1,17 @@
+{
+  "vowels": [
+    {"id": "a", "label": "a", "soundHint": "æ", "example": "apple"},
+    {"id": "e", "label": "e", "soundHint": "e", "example": "egg"},
+    {"id": "i", "label": "i", "soundHint": "ɪ", "example": "igloo"},
+    {"id": "o", "label": "o", "soundHint": "ɒ", "example": "orange"},
+    {"id": "u", "label": "u", "soundHint": "ʌ", "example": "umbrella"}
+  ],
+  "blends": [
+    {"id": "sh", "label": "sh", "soundHint": "/ʃ/", "example": "ship"},
+    {"id": "ch", "label": "ch", "soundHint": "/tʃ/", "example": "chair"},
+    {"id": "th", "label": "th", "soundHint": "/θ/", "example": "thumb"},
+    {"id": "ph", "label": "ph", "soundHint": "/f/", "example": "phone"},
+    {"id": "ee", "label": "ee", "soundHint": "/iː/", "example": "tree"},
+    {"id": "oo", "label": "oo", "soundHint": "/uː/", "example": "moon"}
+  ]
+}

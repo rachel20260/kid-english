@@ -1,42 +1,138 @@
-#root {
-  max-width: 1280px;
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  width: min(980px, 100%);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  font-size: 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 8px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 24px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.nested {
+  background: #f9fbff;
+  border: 2px dashed #bcd4ff;
+}
+
+.home-nav-grid,
+.theme-grid,
+.vocab-grid,
+.stats-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.home-nav-grid {
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.theme-grid,
+.stats-grid {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.vocab-grid {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 14px 0;
+}
+
+.big-nav-btn,
+.theme-btn,
+.word-chip,
+button {
+  border: 0;
+  border-radius: 18px;
+  background: #ffe680;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.big-nav-btn {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(180deg, #ffd76f, #ffc75e);
+}
+
+.theme-btn {
+  background: #d9ecff;
+}
+
+.word-chip {
+  background: #ffeec4;
+}
+
+.active {
+  outline: 4px solid #ff8fab;
+}
+
+.emoji {
+  font-size: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chinese,
+.feedback,
+.sentence-zh {
+  color: #245;
+  font-weight: 600;
+}
+
+.sentence-en {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 6px 0;
+}
+
+.stat-card {
+  background: #f3ffe3;
+  border-radius: 16px;
+  padding: 12px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.stat-card strong {
+  display: block;
+  font-size: 1.6rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.parent-tips {
+  display: grid;
+  gap: 8px;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
