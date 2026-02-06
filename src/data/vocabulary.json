@@ -1,0 +1,56 @@
+{
+  "animals": {
+    "label": "动物",
+    "emoji": "🐼",
+    "items": [
+      {"id": "cat", "word": "cat", "chinese": "猫", "sentenceEn": "The cat is sleeping.", "sentenceZh": "这只猫在睡觉。", "emoji": "🐱"},
+      {"id": "dog", "word": "dog", "chinese": "狗", "sentenceEn": "The dog can run fast.", "sentenceZh": "这只狗跑得很快。", "emoji": "🐶"},
+      {"id": "bird", "word": "bird", "chinese": "鸟", "sentenceEn": "A bird is in the tree.", "sentenceZh": "一只鸟在树上。", "emoji": "🐦"}
+    ]
+  },
+  "food": {
+    "label": "食物",
+    "emoji": "🍎",
+    "items": [
+      {"id": "apple", "word": "apple", "chinese": "苹果", "sentenceEn": "I eat an apple.", "sentenceZh": "我吃一个苹果。", "emoji": "🍎"},
+      {"id": "milk", "word": "milk", "chinese": "牛奶", "sentenceEn": "Milk is good for me.", "sentenceZh": "牛奶对我有好处。", "emoji": "🥛"},
+      {"id": "bread", "word": "bread", "chinese": "面包", "sentenceEn": "This bread is soft.", "sentenceZh": "这个面包很软。", "emoji": "🍞"}
+    ]
+  },
+  "transport": {
+    "label": "交通",
+    "emoji": "🚗",
+    "items": [
+      {"id": "car", "word": "car", "chinese": "小汽车", "sentenceEn": "My dad drives a car.", "sentenceZh": "我爸爸开小汽车。", "emoji": "🚗"},
+      {"id": "bus", "word": "bus", "chinese": "公交车", "sentenceEn": "We go to school by bus.", "sentenceZh": "我们坐公交车去上学。", "emoji": "🚌"},
+      {"id": "train", "word": "train", "chinese": "火车", "sentenceEn": "The train is long.", "sentenceZh": "火车很长。", "emoji": "🚆"}
+    ]
+  },
+  "family": {
+    "label": "家庭",
+    "emoji": "👨‍👩‍👦",
+    "items": [
+      {"id": "father", "word": "father", "chinese": "爸爸", "sentenceEn": "My father is tall.", "sentenceZh": "我的爸爸很高。", "emoji": "👨"},
+      {"id": "mother", "word": "mother", "chinese": "妈妈", "sentenceEn": "My mother is kind.", "sentenceZh": "我的妈妈很温柔。", "emoji": "👩"},
+      {"id": "brother", "word": "brother", "chinese": "哥哥/弟弟", "sentenceEn": "My brother likes football.", "sentenceZh": "我的弟弟喜欢足球。", "emoji": "👦"}
+    ]
+  },
+  "colors": {
+    "label": "颜色",
+    "emoji": "🎨",
+    "items": [
+      {"id": "red", "word": "red", "chinese": "红色", "sentenceEn": "The apple is red.", "sentenceZh": "苹果是红色的。", "emoji": "🟥"},
+      {"id": "blue", "word": "blue", "chinese": "蓝色", "sentenceEn": "The sky is blue.", "sentenceZh": "天空是蓝色的。", "emoji": "🟦"},
+      {"id": "green", "word": "green", "chinese": "绿色", "sentenceEn": "Grass is green.", "sentenceZh": "草是绿色的。", "emoji": "🟩"}
+    ]
+  },
+  "numbers": {
+    "label": "数字",
+    "emoji": "🔢",
+    "items": [
+      {"id": "one", "word": "one", "chinese": "一", "sentenceEn": "I have one kite.", "sentenceZh": "我有一个风筝。", "emoji": "1️⃣"},
+      {"id": "two", "word": "two", "chinese": "二", "sentenceEn": "Two ducks can swim.", "sentenceZh": "两只鸭子会游泳。", "emoji": "2️⃣"},
+      {"id": "three", "word": "three", "chinese": "三", "sentenceEn": "There are three balls.", "sentenceZh": "有三个球。", "emoji": "3️⃣"}
+    ]
+  }
+}
